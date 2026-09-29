@@ -16,8 +16,9 @@ Goal: 20 reference images to train Nora's character (Soul ID) on Higgsfield.
 
 ## Prompting rules used (from research)
 
-- Tell the model what the reference images are and that they show the same person;
-  lock identity explicitly ("keep her face 100% identical to the references").
+- On Higgsfield, point to the references with `@image1`, `@image2`, `@image3` (in the
+  order they are attached), say they show the same person and lock identity explicitly
+  ("keep her identity 100% identical to @image1, @image2 and @image3").
 - Use the exact same identity block in every prompt. Re-describing the face in
   different words, or words like "new"/"different", invites identity drift.
 - Write in natural descriptive sentences (subject, action, setting, composition,
@@ -35,11 +36,11 @@ Goal: 20 reference images to train Nora's character (Soul ID) on Higgsfield.
 
 **IDENTITY**
 
-> Images 1, 2 and 3 are reference photos of the same young woman, Nora. Show exactly this woman in the scene below and keep her identity 100% identical to the references: same face shape and bone structure, same thick dark eyebrows, same brown eyes, same nose, lips and jawline, same warm olive skin tone with her natural freckles and small beauty marks, same long dark-brown wavy hair. Do not beautify, slim or alter her features. She is the only person in the photo.
+> @image1, @image2 and @image3 are reference photos of the same young woman, Nora. Show exactly this woman in the scene below and keep her identity 100% identical to @image1, @image2 and @image3: same face shape and bone structure, same thick dark eyebrows, same brown eyes, same nose, lips and jawline, same warm olive skin tone with her natural freckles and small beauty marks, same long dark-brown wavy hair. Do not beautify, slim or alter her features. She is the only person in the photo.
 
 **REALISM**
 
-> Photorealistic, unretouched smartphone photo: real skin texture with visible pores, fine peach fuzz and a natural dewy glow, no airbrushing, no beauty filter, no plastic skin. Minimal everyday makeup like in the references (brushed-up brows, mascara, sheer pink lips). Her face is sharp, in focus and fully visible: no sunglasses, no hat, nothing covering her face. No text, no watermark, not a studio or advertising shot.
+> Photorealistic, unretouched smartphone photo: real skin texture with visible pores, fine peach fuzz and a natural dewy glow, no airbrushing, no beauty filter, no plastic skin. Minimal everyday makeup like in @image1, @image2 and @image3 (brushed-up brows, mascara, sheer pink lips). Her face is sharp and in focus, never covered by hands, hair or objects: no sunglasses, no hat. No text, no watermark, not a studio or advertising shot.
 
 ## Coverage map
 
