@@ -1,0 +1,167 @@
+{
+  "model": "nano_banana_pro",
+  "texture_reference_job": "ff582d6b-6b98-4394-a740-db440ade1f69",
+  "shots": [
+    {
+      "index": 1,
+      "title": "Macro texture (reference for phase 2)",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "ff582d6b-6b98-4394-a740-db440ade1f69"
+    },
+    {
+      "index": 2,
+      "title": "Hero bathroom window",
+      "aspect_ratio": "1:1",
+      "resolution": "4k",
+      "job_id": "f9dff4f6-1fcf-42cf-a94f-01c0bbc958f9"
+    },
+    {
+      "index": 3,
+      "title": "Before/after \u2014 living room, building across",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "f8e9b234-b0d8-4a48-9487-f34119ef66ac"
+    },
+    {
+      "index": 4,
+      "title": "Before/after \u2014 kitchen, neighbor garden",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "c04ecd05-3322-4723-9138-d40a731d6c80"
+    },
+    {
+      "index": 5,
+      "title": "Thin & flexible sheet",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "98548898-7b87-451b-a79a-042fecbc0112"
+    },
+    {
+      "index": 6,
+      "title": "Install 1 \u2014 spray water",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "aee8b1a0-be79-4036-aed7-e43e7b809654"
+    },
+    {
+      "index": 7,
+      "title": "Install 2 \u2014 squeegee",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "dd16bc68-60ae-4323-a648-31635223c8ae"
+    },
+    {
+      "index": 8,
+      "title": "Install 3 \u2014 trim edge",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "256dd2d0-e830-46a7-a1bc-67215b3600af"
+    },
+    {
+      "index": 9,
+      "title": "Removable, no residue",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "f194aaec-2f5a-4161-a6bc-1e169d70d837"
+    },
+    {
+      "index": 10,
+      "title": "Kitchen cabinet doors",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "251db9fa-2765-4a9f-a8ae-5a6cde80e2c2"
+    },
+    {
+      "index": 11,
+      "title": "Living room glass cabinet",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "5becd38d-0d75-43bb-b13d-afcc7d1c0f9c"
+    },
+    {
+      "index": 12,
+      "title": "Shower screen \u2014 sage zellige",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "34b55179-815c-4bd2-90c7-2c593b747191"
+    },
+    {
+      "index": 13,
+      "title": "Shower door \u2014 Mediterranean",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "5c792269-8d7a-4572-ba95-210af0849338"
+    },
+    {
+      "index": 14,
+      "title": "Interior glass door \u2014 home office",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "f7b97aa7-8f05-40d8-ae1d-108a49619041"
+    },
+    {
+      "index": 15,
+      "title": "Street-facing living room window",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "72f4bce1-d4ed-4f37-a40b-f729e240329a"
+    },
+    {
+      "index": 16,
+      "title": "Street-facing bedroom French window",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "1ebea4c9-c896-493b-84f3-4c748f7e82fb"
+    },
+    {
+      "index": 17,
+      "title": "Striped light on wall",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "3a63d5fb-f2fc-48a7-bc9a-e58bd97e5f4a"
+    },
+    {
+      "index": 18,
+      "title": "Studio \u2014 draped roll, warm white",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "262384fb-be81-4bf2-a24d-40705464fc9f"
+    },
+    {
+      "index": 19,
+      "title": "Studio \u2014 sample sheet vs fruit bowl",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "9b54f2bf-ceb2-4aa9-bff3-72ff5e24bf6b"
+    },
+    {
+      "index": 20,
+      "title": "Nora applying the film",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "91e2603d-26c4-42bd-9d11-6f6aca6c26a7"
+    },
+    {
+      "index": 21,
+      "title": "Nora on window seat",
+      "aspect_ratio": "1:1",
+      "resolution": "2k",
+      "job_id": "abe1b30b-01f7-48f3-b783-c2ecabcb6de5"
+    },
+    {
+      "index": 22,
+      "title": "Banner \u2014 living room (text space left)",
+      "aspect_ratio": "16:9",
+      "resolution": "2k",
+      "job_id": "594d8860-efa3-428c-b055-3900a03b626e"
+    },
+    {
+      "index": 23,
+      "title": "Banner \u2014 bathroom (text space right)",
+      "aspect_ratio": "16:9",
+      "resolution": "2k",
+      "job_id": "8ea7e0af-f056-4813-b041-5bc24e1125ed"
+    }
+  ]
+}
