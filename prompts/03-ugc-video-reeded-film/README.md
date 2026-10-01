@@ -37,3 +37,17 @@ Clip prompts: `clip1.txt`, `clip2.txt`.
 | --- | --- | --- | --- | --- |
 | #2 Neighbor POV | caught mid-toothbrush, neighbor's window 2 m away | `53ee29b8-d538-49bb-81af-89bf2c02cef0` | `9f3e3681-2418-4c88-92ca-6e7d81348d0d` | `v2-neighbor-clip.txt` |
 | #3 ASMR | silent satisfying process, whispered lines | `a88c5cf3-c449-4649-b8d7-80b9a2b23f36` | `aaf5a584-6a4b-4582-ae09-1463e81b1fc2` | `v3-asmr-clip.txt` |
+
+## QA results (frame contact sheets + Whisper transcripts)
+
+| Video | Status | Notes |
+| --- | --- | --- |
+| #1 (30s, 1080p) | ✅ ready | Identity consistent, script verbatim. Minor: tank top shifts grey→black and lips a bit redder in clip 2; first cut of clip 2 shows glass still clear while squeegeeing. |
+| #2 Neighbor POV (15s, 720p) | ⚠️ blocked | Seedance rendered the voice in **Chinese** despite the English script. Fix = Higgsfield `dubbing` to `eng` on job `9f3e3681-2418-4c88-92ca-6e7d81348d0d` (failed: out of credits). |
+| #3 ASMR (15s, 720p) | ✅ ready | English whisper verbatim, strong macro beats, consistent identity. |
+
+Final URLs:
+- #1 → https://d2ol7oe51mr4n9.cloudfront.net/user_38O4FsThNaTNGmKzYo6UK4OuQNn/d222fe79-3fd9-47c6-ade0-4afc78ebf1fc.mp4
+- #3 → https://d8j0ntlcm91z4.cloudfront.net/user_38O4FsThNaTNGmKzYo6UK4OuQNn/hf_20261001_011239_aaf5a584-6a4b-4582-ae09-1463e81b1fc2.mp4
+
+Lesson: for Seedance 2.5 add an explicit language line to the Audio block ("spoken in English, American accent") — the script alone did not lock the language on clip #2.
