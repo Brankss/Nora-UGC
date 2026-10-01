@@ -12,6 +12,7 @@ Workspace for **Nora**, an AI UGC character generated and managed on Higgsfield.
 
 ## Prompt sets
 
+- [`prompts/03-ugc-video-reeded-film/`](prompts/03-ugc-video-reeded-film/) — first UGC video (30s) for the reeded window film.
 - [`prompts/02-reeded-film-product-page.md`](prompts/02-reeded-film-product-page.md) — 23 Nano Banana Pro product-page images for the reeded glass window film.
 - [`prompts/01-soul-id-reference-set.md`](prompts/01-soul-id-reference-set.md) — 17 Nano Banana Pro
   prompts that, together with the 3 original references, form the 20-image set for Nora's Soul ID.
