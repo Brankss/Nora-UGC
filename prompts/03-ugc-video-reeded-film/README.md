@@ -24,3 +24,16 @@ Built with the official Higgsfield `ugc-review-video` workflow (talking-head dem
 | Clip 2 (15s) | seedance_2_5 omni_reference + audio | `d8988769-795c-4470-b1e0-0a81a7262ef3` |
 
 Clip prompts: `clip1.txt`, `clip2.txt`.
+
+## Final cut — video #1
+
+- Assembled 30.1s MP4 (hard-cut concat, stream copy): Higgsfield media `d222fe79-3fd9-47c6-ade0-4afc78ebf1fc`
+  → https://d2ol7oe51mr4n9.cloudfront.net/user_38O4FsThNaTNGmKzYo6UK4OuQNn/d222fe79-3fd9-47c6-ade0-4afc78ebf1fc.mp4
+- Audio check (Whisper): both clips match the script word for word.
+
+# Variants for A/B hook testing (15s, 720p, single board FULL_ARC)
+
+| Video | Hook | Board (de-slop) | Clip | Prompt |
+| --- | --- | --- | --- | --- |
+| #2 Neighbor POV | caught mid-toothbrush, neighbor's window 2 m away | `53ee29b8-d538-49bb-81af-89bf2c02cef0` | `9f3e3681-2418-4c88-92ca-6e7d81348d0d` | `v2-neighbor-clip.txt` |
+| #3 ASMR | silent satisfying process, whispered lines | `a88c5cf3-c449-4649-b8d7-80b9a2b23f36` | `aaf5a584-6a4b-4582-ae09-1463e81b1fc2` | `v3-asmr-clip.txt` |
